@@ -1,0 +1,44 @@
+{
+  "name": "AncientFalcon88's Source",
+  "identifier": "com.ancientfalcon88.altstore-source",
+  "sourceURL": "https://raw.githubusercontent.com/AncientFalcon88/Argus/main/altstore-source.json",
+  "description": "AncientFalcon88's sideloading source for Argus, a free native iOS client for PublicMetaDB.",
+  "website": "https://github.com/AncientFalcon88/Argus",
+  "apps": [
+    {
+      "name": "Argus",
+      "bundleIdentifier": "ios.argus.app",
+      "developerName": "AncientFalcon88",
+      "subtitle": "A native iOS PublicMetaDB client built with Liquid Glass",
+      "localizedDescription": "Argus is a free, fully native iOS client for PublicMetaDB — a community-driven database for movies and TV shows. Built with SwiftUI and Apple's Liquid Glass design language, Argus delivers everything the website has and more, all in a premium native experience.",
+      "iconURL": "https://raw.githubusercontent.com/AncientFalcon88/Argus/main/Assets/icon.png",
+      "tintColor": "8E8E93",
+      "screenshots": [
+        "https://raw.githubusercontent.com/AncientFalcon88/Argus/main/Assets/IMG_1.png?v=2",
+        "https://raw.githubusercontent.com/AncientFalcon88/Argus/main/Assets/IMG_2.png?v=2",
+        "https://raw.githubusercontent.com/AncientFalcon88/Argus/main/Assets/IMG_3.png?v=2",
+        "https://raw.githubusercontent.com/AncientFalcon88/Argus/main/Assets/IMG_4.png?v=2",
+        "https://raw.githubusercontent.com/AncientFalcon88/Argus/main/Assets/IMG_5.png?v=2",
+        "https://raw.githubusercontent.com/AncientFalcon88/Argus/main/Assets/IMG_6.png?v=2"
+      ],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-08-01",
+          "localizedDescription": "Initial public beta release.",
+          "downloadURL": "https://github.com/AncientFalcon88/Argus/releases/download/v1.0-beta/Argus.ipa",
+          "size": 16971805,
+          "minOSVersion": "26.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryAddUsageDescription": "Argus needs permission to save posters and share images to your photo library."
+        }
+      }
+    }
+  ],
+  "news": []
+}

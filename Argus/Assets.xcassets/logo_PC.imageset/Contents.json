@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Rotten_Tomatoes_Popcornmeter_(PC).png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

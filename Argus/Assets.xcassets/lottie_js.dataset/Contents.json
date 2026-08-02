@@ -1,0 +1,13 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "data" : [
+    {
+      "idiom" : "universal",
+      "filename" : "lottie.min.js",
+      "universal-type-identifier" : "public.script"
+    }
+  ]
+}

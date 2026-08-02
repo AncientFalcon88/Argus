@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A3BE46C65970172C144A79 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2028BB2751861C5D071D3072 /* AppState.swift */; };
+		0718293A4B5C6D7E8F901A2B3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18293A4B5C6D7E8F901A2B3C4 /* SettingsView.swift */; };
+		13C3B77B8B3ECF68D22AD857 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3FA2158D8A29FFDD0D261C /* HomeViewModel.swift */; };
+		13FBFA1C1E240E64C4D98230 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06580AC846C7B4C9E786A5F /* ContentView.swift */; };
+		18F48BD0AF4303ABB4735C7A /* SeasonMappingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE538296C3E88F8D363A0AAF /* SeasonMappingSheet.swift */; };
+		19ED1FB167E0B4D3C6F5FDAE /* PreviewPosterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E675CBE84AE96CFEA8583B /* PreviewPosterCard.swift */; };
+		1A2B3C4D5E6F708192A3B4C5 /* MediaDetailRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3C4D5E6F708192A3B4C5D6 /* MediaDetailRoute.swift */; };
+		1E46FE07CDE39965587972E3 /* RatingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A874D8C7F26BD8511C6E81E /* RatingModels.swift */; };
+		20DDA1EF970C365A16F71374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C2B90A5DCA5D29F2BEC039 /* Assets.xcassets */; };
+		23521B3F4B185D3533883106 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C7DFEBBAF0CFE0BC70A7D8 /* APIError.swift */; };
+		24A1820CD66BBB8E4566B781 /* FavoriteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4BA6104ABC67CB8CA905CC /* FavoriteItem.swift */; };
+		261EB20B70F4F08BB45F6D98 /* Argus-3D-Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 29EB47441A5C8E3D0E33ABAE /* Argus-3D-Black.png */; };
+		26275466A20F22CA58D20239 /* ResumeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D569D6396121453452E616 /* ResumeModels.swift */; };
+		2765EDF7DA725C9CF68AB612 /* LiquidGlassPickCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956E0A3841AC1B73C51358C1 /* LiquidGlassPickCard.swift */; };
+		2C5881633CC8A59F55C89821 /* MyStatsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B55C40378AF85F6B3FC4A59 /* MyStatsModels.swift */; };
+		35E73CE6F77F2FD8A30CEA26 /* Argus-flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 44CB4B4FA58BB71C6BB8AA39 /* Argus-flat.png */; };
+		36A97BD434FB12A67EFC1AB4 /* AppIconPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C139E6DDADFCCECC61F58E /* AppIconPickerView.swift */; };
+		3A2FDA30544A4FF1FC1AC3B1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857CFB482F476BA04D63D978 /* APIService.swift */; };
+		3B89F0D3047C3D136F0815F5 /* GlassComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02854E6AA6F7FA9F4E5512F3 /* GlassComponents.swift */; };
+		3C4D5E6F708192A3B4C5D6E7 /* TMDBSeasonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5E6F708192A3B4C5D6E7F8 /* TMDBSeasonModels.swift */; };
+		3D09C85AB1489BF1010E0DA7 /* FavoriteSearchModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88FE19F4B9A7C21785B1B31 /* FavoriteSearchModal.swift */; };
+		42D2542A157ADFCEB3660B6D /* ListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6AFE2934FF804F2D4D601 /* ListsView.swift */; };
+		4417EAB8E75029F06C31844B /* MyStatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7319356F7A20B7D89B16789B /* MyStatsViewModel.swift */; };
+		49F30481852BF7907562AAE1 /* ListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CBD366C446811FFD949569F /* ListModels.swift */; };
+		4A0970D8B913985EE7E1AE40 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3253C94E24EE336D68DABBC2 /* RootView.swift */; };
+		4EFF7CFDAB50C51B9E8D75A3 /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148F588B56674F762EB0B9E /* AppIconView.swift */; };
+		5230EECD5B9FAC0E242C953C /* AuthModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CD9B53F74D4D97CFA31F9C /* AuthModels.swift */; };
+		53F98F6A2FA4D1026CAE85A1 /* HighlightModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7209EB40BDDB6C4C335A30 /* HighlightModels.swift */; };
+		54457D8B790564B908FAC57B /* CommonTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20182D7557F3DD581BC6FF9A /* CommonTypes.swift */; };
+		5BFA13D74C5DFD1B64B2994A /* DiscoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01738DBB3118115669794A64 /* DiscoverViewModel.swift */; };
+		5E15CCE814C690732D8B0D44 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF36DD1E7165A114608D0D2 /* ProfileViewModel.swift */; };
+		5E6F708192A3B4C5D6E7F809 /* MediaDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F708192A3B4C5D6E7F8091A /* MediaDetailViewModel.swift */; };
+		627218D7B3E8430AF7709152 /* ManagePlaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEDF2079BFF989EF81C925D /* ManagePlaysView.swift */; };
+		68D6B913F20F747D62FFB21A /* Argus-100-eyes.png in Resources */ = {isa = PBXBuildFile; fileRef = C3E09B9FD9A6CDB22D9C071E /* Argus-100-eyes.png */; };
+		6917AC1F0D9637D75FC428CE /* FavoriteGridSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022C18C0F20BC58738656373 /* FavoriteGridSection.swift */; };
+		6D6F4A90FAAFF7D443456D31 /* PosterCustomizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1C661DE5FF1A30070E0530 /* PosterCustomizationView.swift */; };
+		6F3D501C3F9EF9524095B312 /* AnimeSeasonModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE238FB88260AB89D427BA26 /* AnimeSeasonModels.swift */; };
+		708192A3B4C5D6E7F8091A2B /* MediaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8192A3B4C5D6E7F8091A2B3C /* MediaDetailView.swift */; };
+		72AA5672080F72BFDCF01282 /* GlassTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3132523FA15E42D7D4CB716 /* GlassTheme.swift */; };
+		79ACB0D8D8A34156515C2CF0 /* ListsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751CA4F01DB3307308876EC4 /* ListsViewModel.swift */; };
+		7C74376ADCC2B20BE494E8A5 /* WatchedModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2FE84FFF4107208F0A9DF2 /* WatchedModels.swift */; };
+		8041004B9B7EE597DB46CC2C /* MappingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74224283BB6301E26B3AAD /* MappingModels.swift */; };
+		80A69B0002DBD78F911B0F82 /* SkipModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78ED51F30EED500C314B8C1D /* SkipModels.swift */; };
+		8183548ACD36903CE1163AD3 /* CacheRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A861D35EA49B526C81A5736 /* CacheRepository.swift */; };
+		86DD979E235498FBF06E77A8 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B859D2160948AC470590C /* FavoritesView.swift */; };
+		897FD8F99874D3C791BC0E74 /* TMDBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28DFD8F7A2F939B30281F6 /* TMDBService.swift */; };
+		89F15E3952E93CA761D51E44 /* TMDBModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6874D136161E655F840F07 /* TMDBModels.swift */; };
+		8B8139EE9CD162BF61C019EF /* MyProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB423728CD3C4D3B087C5C9 /* MyProgressView.swift */; };
+		8CADFEF5B6D8BFAFD6D050BE /* pmdb-3D.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FB352DCE8C4137F3102D565 /* pmdb-3D.png */; };
+		8DE9B0C09D529730F3F637BC /* PicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B8B027EF389D59A8E0B83A /* PicksView.swift */; };
+		91F9AD9859B4A983629066E6 /* MediaDetailSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7A2B270ED24907AF82DD53 /* MediaDetailSections.swift */; };
+		92A3B4C5D6E7F8091A2B3C4D /* MediaDetailNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B4C5D6E7F8091A2B3C4D5E /* MediaDetailNavigation.swift */; };
+		9497B62AFBF7BDDAF18A1845 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CD1CBEDBA57376A1F08EC0 /* HomeView.swift */; };
+		96234D7183317BBD9AA716A9 /* CatalogModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A037D73A48414773960126 /* CatalogModels.swift */; };
+		9B202A0BDCFA3D42129C71C0 /* pmdb-flat.png in Resources */ = {isa = PBXBuildFile; fileRef = 17F37B832272BF24D1210A7E /* pmdb-flat.png */; };
+		A1B2C3D4E5F60718293A4B5C /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F60718293A4B5C6D /* SettingsStore.swift */; };
+		A4056E51E7BB0766A22E6599 /* cinematicboom.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3FE63B240598CB3AEBB003C8 /* cinematicboom.caf */; };
+		A4C793421F5B9D242A2B0D89 /* VoteModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC2D12CBA865B510E41758 /* VoteModels.swift */; };
+		A91E927F3CAA183C200263B3 /* PicksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A107EE48F2E07A6726646726 /* PicksViewModel.swift */; };
+		B3152437922A8038C5B214C8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA18D71CED58FB9A1C03F6D /* LoginView.swift */; };
+		BBBBBBBB0000000000000002 /* WatchHistoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAAAA0000000000000001 /* WatchHistoryListView.swift */; };
+		C24A946DDD0319C0E5A3E6BF /* ProgressStatCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B8A1839135FC1CA45B0853 /* ProgressStatCards.swift */; };
+		C3D4E5F60718293A4B5C6D7E /* TMDBIDResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5F60718293A4B5C6D7E8F /* TMDBIDResolver.swift */; };
+		C3D4E7AE74D4461ED4F10F07 /* ArgusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33163A4AC24328C2E67AB11E /* ArgusApp.swift */; };
+		C4A40415D4CC981FC5177F34 /* MyStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCFBA6CA0862BC385B117CEC /* MyStatsView.swift */; };
+		C5E87157DEB092E81B059DCA /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBF3333580097218E9417DA /* CalendarViewModel.swift */; };
+		C7EAE616DB25CED1706CA142 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B9590AAA411BF7D5F4ED0B /* CalendarView.swift */; };
+		C908BB1D3AD029A2E73EB7E1 /* MyStatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8165BB07858337E47EAD1B6 /* MyStatsService.swift */; };
+		CC1EC48DA13F06E27D0895CF /* CreateListSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27A5A8F9D2EB145E43F3F8D /* CreateListSheet.swift */; };
+		CCCCCCCC0000000000000003 /* SkeletonCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDDDDD0000000000000004 /* SkeletonCardView.swift */; };
+		CE422D67DDDB407B81282810 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C022E464BB6DD924E359E /* DiscoverView.swift */; };
+		D0183A8CB4279CAEF7A60286 /* PersonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB01D8DD7CE18B54BAE1E03B /* PersonDetailView.swift */; };
+		D12CDC74FA61A563D1A43A43 /* MyProgressData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3324F5DB1C0621082CB07CB7 /* MyProgressData.swift */; };
+		D6E7F8091A2B3C4D5E6F708 /* ContinueWatchingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D6E7F8091A2B3C4D5E6F7 /* ContinueWatchingItem.swift */; };
+		D829C153E34B8D23679E1C5C /* splashscreeneye.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0D1517D88D7F6B0867F702F5 /* splashscreeneye.mp4 */; };
+		D92BAD48CD06E9920BD9606A /* CalendarModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31007D7E810705931A1FCCCF /* CalendarModels.swift */; };
+		DCF49E39BB8D78658507E0BD /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CA3E371A9BFBDE9E5CC59C /* AuthService.swift */; };
+		DDC1B7C4E2A3A0695EB98F8B /* NewPickSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB385CF68A8771AA026A1299 /* NewPickSheetView.swift */; };
+		DF0C78B20801605A8F26DB08 /* SeasonMappingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7825B7F5F6C5E84B9FEA44 /* SeasonMappingCard.swift */; };
+		E3CDE02272DE1D985F14A12B /* HeroCarouselModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF173FE9E222CD544C07192 /* HeroCarouselModels.swift */; };
+		E5F60718293A4B5C6D7E8F90 /* MetadataEnrichmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60718293A4B5C6D7E8F901A /* MetadataEnrichmentService.swift */; };
+		E8F9A0B1C2D3E4F5061728394 /* ProfileStatDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A0B1C2D3E4F5061728394A5 /* ProfileStatDestinations.swift */; };
+		EBF1DC9F8D22E548715E91E5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADE3765FB0F9A8485D5FE04 /* Config.swift */; };
+		EEEEEEEE0000000000000001 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFFFFFF0000000000000002 /* Date+Extensions.swift */; };
+		F2D0A4FA9C5176152AD6B070 /* SwiftDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E87D565350FFBAAA68AE73A /* SwiftDataModels.swift */; };
+		F519AC4AD2FA2A7120ECF086 /* MyProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A12243759298D125780FC /* MyProgressViewModel.swift */; };
+		F5BAFA474B243924871A573C /* HomeHeroCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D1C953AA0A714B4A2F7BF5 /* HomeHeroCarouselView.swift */; };
+		FA1B2C3D4E5F6071829FA1B2 /* FavoritesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B3C4D5E6F708192B3C4D5 /* FavoritesService.swift */; };
+		FA9ECA0F14F3137C344E5E2A /* ActivityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65097AC42F96CF36E435FB5A /* ActivityDetailView.swift */; };
+		FD7D382FCEC7AAB0C69FBC35 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E874C69B028F6EA29F8DC15 /* ProfileView.swift */; };
+		FFEC9BE059A7BC9C538E06EA /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8B017F10ADD65E3852181E /* UserService.swift */; };
+		GGGGGGGG0000000000000001 /* APIResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = HHHHHHHH0000000000000002 /* APIResponses.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0148F588B56674F762EB0B9E /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
+		01738DBB3118115669794A64 /* DiscoverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewModel.swift; sourceTree = "<group>"; };
+		022C18C0F20BC58738656373 /* FavoriteGridSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoriteGridSection.swift; sourceTree = "<group>"; };
+		02854E6AA6F7FA9F4E5512F3 /* GlassComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassComponents.swift; sourceTree = "<group>"; };
+		0A7A2B270ED24907AF82DD53 /* MediaDetailSections.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MediaDetailSections.swift; sourceTree = "<group>"; };
+		0ADE3765FB0F9A8485D5FE04 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		0C74224283BB6301E26B3AAD /* MappingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingModels.swift; sourceTree = "<group>"; };
+		0D1517D88D7F6B0867F702F5 /* splashscreeneye.mp4 */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = splashscreeneye.mp4; path = Resources/splashscreeneye.mp4; sourceTree = "<group>"; };
+		17F37B832272BF24D1210A7E /* pmdb-flat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pmdb-flat.png"; path = "AppIcons/pmdb-flat.png"; sourceTree = "<group>"; };
+		18293A4B5C6D7E8F901A2B3C4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1EB423728CD3C4D3B087C5C9 /* MyProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyProgressView.swift; sourceTree = "<group>"; };
+		1FB352DCE8C4137F3102D565 /* pmdb-3D.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pmdb-3D.png"; path = "AppIcons/pmdb-3D.png"; sourceTree = "<group>"; };
+		1FEDF2079BFF989EF81C925D /* ManagePlaysView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ManagePlaysView.swift; sourceTree = "<group>"; };
+		20182D7557F3DD581BC6FF9A /* CommonTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTypes.swift; sourceTree = "<group>"; };
+		2028BB2751861C5D071D3072 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		29EB47441A5C8E3D0E33ABAE /* Argus-3D-Black.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Argus-3D-Black.png"; path = "AppIcons/Argus-3D-Black.png"; sourceTree = "<group>"; };
+		2B3C4D5E6F708192A3B4C5D6 /* MediaDetailRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailRoute.swift; sourceTree = "<group>"; };
+		2E87D565350FFBAAA68AE73A /* SwiftDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataModels.swift; sourceTree = "<group>"; };
+		31007D7E810705931A1FCCCF /* CalendarModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalendarModels.swift; sourceTree = "<group>"; };
+		3253C94E24EE336D68DABBC2 /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = Auth/RootView.swift; sourceTree = "<group>"; };
+		33163A4AC24328C2E67AB11E /* ArgusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgusApp.swift; sourceTree = "<group>"; };
+		3324F5DB1C0621082CB07CB7 /* MyProgressData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyProgressData.swift; sourceTree = "<group>"; };
+		390C022E464BB6DD924E359E /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		3A861D35EA49B526C81A5736 /* CacheRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheRepository.swift; sourceTree = "<group>"; };
+		3FE63B240598CB3AEBB003C8 /* cinematicboom.caf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = cinematicboom.caf; sourceTree = "<group>"; };
+		401B859D2160948AC470590C /* FavoritesView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		40B8B027EF389D59A8E0B83A /* PicksView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PicksView.swift; path = Picks/PicksView.swift; sourceTree = "<group>"; };
+		44A037D73A48414773960126 /* CatalogModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogModels.swift; sourceTree = "<group>"; };
+		44CB4B4FA58BB71C6BB8AA39 /* Argus-flat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Argus-flat.png"; path = "AppIcons/Argus-flat.png"; sourceTree = "<group>"; };
+		45D1C953AA0A714B4A2F7BF5 /* HomeHeroCarouselView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HomeHeroCarouselView.swift; sourceTree = "<group>"; };
+		4A4BA6104ABC67CB8CA905CC /* FavoriteItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoriteItem.swift; sourceTree = "<group>"; };
+		4B28DFD8F7A2F939B30281F6 /* TMDBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBService.swift; sourceTree = "<group>"; };
+		4B55C40378AF85F6B3FC4A59 /* MyStatsModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyStatsModels.swift; sourceTree = "<group>"; };
+		4BFC2D12CBA865B510E41758 /* VoteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteModels.swift; sourceTree = "<group>"; };
+		4C7209EB40BDDB6C4C335A30 /* HighlightModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightModels.swift; sourceTree = "<group>"; };
+		4CBD366C446811FFD949569F /* ListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModels.swift; sourceTree = "<group>"; };
+		4D5E6F708192A3B4C5D6E7F8 /* TMDBSeasonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBSeasonModels.swift; sourceTree = "<group>"; };
+		557A12243759298D125780FC /* MyProgressViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyProgressViewModel.swift; sourceTree = "<group>"; };
+		5CBF3333580097218E9417DA /* CalendarViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		5CF173FE9E222CD544C07192 /* HeroCarouselModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HeroCarouselModels.swift; sourceTree = "<group>"; };
+		5E874C69B028F6EA29F8DC15 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		65097AC42F96CF36E435FB5A /* ActivityDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ActivityDetailView.swift; sourceTree = "<group>"; };
+		6A874D8C7F26BD8511C6E81E /* RatingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingModels.swift; sourceTree = "<group>"; };
+		6F708192A3B4C5D6E7F8091A /* MediaDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailViewModel.swift; sourceTree = "<group>"; };
+		7319356F7A20B7D89B16789B /* MyStatsViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyStatsViewModel.swift; sourceTree = "<group>"; };
+		74CD1CBEDBA57376A1F08EC0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		751CA4F01DB3307308876EC4 /* ListsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsViewModel.swift; sourceTree = "<group>"; };
+		78ED51F30EED500C314B8C1D /* SkipModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipModels.swift; sourceTree = "<group>"; };
+		7C8B017F10ADD65E3852181E /* UserService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		80D6AFE2934FF804F2D4D601 /* ListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsView.swift; sourceTree = "<group>"; };
+		8192A3B4C5D6E7F8091A2B3C /* MediaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailView.swift; sourceTree = "<group>"; };
+		81E2A5C3B4BDA27200337869 /* Argus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Argus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		857CFB482F476BA04D63D978 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		8A2FE84FFF4107208F0A9DF2 /* WatchedModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedModels.swift; sourceTree = "<group>"; };
+		956E0A3841AC1B73C51358C1 /* LiquidGlassPickCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiquidGlassPickCard.swift; path = Picks/LiquidGlassPickCard.swift; sourceTree = "<group>"; };
+		96CD9B53F74D4D97CFA31F9C /* AuthModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthModels.swift; sourceTree = "<group>"; };
+		9DF36DD1E7165A114608D0D2 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		A06580AC846C7B4C9E786A5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A107EE48F2E07A6726646726 /* PicksViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PicksViewModel.swift; sourceTree = "<group>"; };
+		A3B4C5D6E7F8091A2B3C4D5E /* MediaDetailNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailNavigation.swift; sourceTree = "<group>"; };
+		AAAAAAAA0000000000000001 /* WatchHistoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHistoryListView.swift; sourceTree = "<group>"; };
+		AB385CF68A8771AA026A1299 /* NewPickSheetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NewPickSheetView.swift; path = Picks/NewPickSheetView.swift; sourceTree = "<group>"; };
+		AD7825B7F5F6C5E84B9FEA44 /* SeasonMappingCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeasonMappingCard.swift; sourceTree = "<group>"; };
+		B2C3D4E5F60718293A4B5C6D /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		B4CA3E371A9BFBDE9E5CC59C /* AuthService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		BE538296C3E88F8D363A0AAF /* SeasonMappingSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SeasonMappingSheet.swift; sourceTree = "<group>"; };
+		C3D569D6396121453452E616 /* ResumeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeModels.swift; sourceTree = "<group>"; };
+		C3E09B9FD9A6CDB22D9C071E /* Argus-100-eyes.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "Argus-100-eyes.png"; path = "AppIcons/Argus-100-eyes.png"; sourceTree = "<group>"; };
+		C5D6E7F8091A2B3C4D5E6F7 /* ContinueWatchingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueWatchingItem.swift; sourceTree = "<group>"; };
+		C6C139E6DDADFCCECC61F58E /* AppIconPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppIconPickerView.swift; sourceTree = "<group>"; };
+		C88FE19F4B9A7C21785B1B31 /* FavoriteSearchModal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoriteSearchModal.swift; sourceTree = "<group>"; };
+		CCA18D71CED58FB9A1C03F6D /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = Auth/LoginView.swift; sourceTree = "<group>"; };
+		CCFBA6CA0862BC385B117CEC /* MyStatsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyStatsView.swift; sourceTree = "<group>"; };
+		CD1C661DE5FF1A30070E0530 /* PosterCustomizationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PosterCustomizationView.swift; sourceTree = "<group>"; };
+		D4E5F60718293A4B5C6D7E8F /* TMDBIDResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBIDResolver.swift; sourceTree = "<group>"; };
+		D7B8A1839135FC1CA45B0853 /* ProgressStatCards.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ProgressStatCards.swift; sourceTree = "<group>"; };
+		DA3FA2158D8A29FFDD0D261C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DDDDDDDD0000000000000004 /* SkeletonCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCardView.swift; sourceTree = "<group>"; };
+		E8165BB07858337E47EAD1B6 /* MyStatsService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyStatsService.swift; sourceTree = "<group>"; };
+		E9C2B90A5DCA5D29F2BEC039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB01D8DD7CE18B54BAE1E03B /* PersonDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PersonDetailView.swift; sourceTree = "<group>"; };
+		F27A5A8F9D2EB145E43F3F8D /* CreateListSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CreateListSheet.swift; sourceTree = "<group>"; };
+		F3132523FA15E42D7D4CB716 /* GlassTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassTheme.swift; sourceTree = "<group>"; };
+		F5E675CBE84AE96CFEA8583B /* PreviewPosterCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreviewPosterCard.swift; sourceTree = "<group>"; };
+		F60718293A4B5C6D7E8F901A /* MetadataEnrichmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataEnrichmentService.swift; sourceTree = "<group>"; };
+		F6C7DFEBBAF0CFE0BC70A7D8 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		F9A0B1C2D3E4F5061728394A5 /* ProfileStatDestinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileStatDestinations.swift; sourceTree = "<group>"; };
+		F9B9590AAA411BF7D5F4ED0B /* CalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		FA2B3C4D5E6F708192B3C4D5 /* FavoritesService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FavoritesService.swift; sourceTree = "<group>"; };
+		FE238FB88260AB89D427BA26 /* AnimeSeasonModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSeasonModels.swift; sourceTree = "<group>"; };
+		FE6874D136161E655F840F07 /* TMDBModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBModels.swift; sourceTree = "<group>"; };
+		FFFFFFFF0000000000000002 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Date+Extensions.swift"; path = "../../Extensions/Date+Extensions.swift"; sourceTree = "<group>"; };
+		HHHHHHHH0000000000000002 /* APIResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponses.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F6F5CC3FCCF73F75AE9CCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1405F8BBB4B5D6193DFB93C7 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				390C022E464BB6DD924E359E /* DiscoverView.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		245B98C597284AC824FB11F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D1517D88D7F6B0867F702F5 /* splashscreeneye.mp4 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2866DA441EF161CDD1A82835 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				2E87D565350FFBAAA68AE73A /* SwiftDataModels.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		56A1B566039BA486F2D6DC66 /* Argus */ = {
+			isa = PBXGroup;
+			children = (
+				33163A4AC24328C2E67AB11E /* ArgusApp.swift */,
+				6EDE00FA7A261151470098F6 /* Config */,
+				F3A204C879C4E1558FCB2C4D /* Services */,
+				71A6F5C4884DAA03A21911C3 /* ViewModels */,
+				7CBFF3E6D5C1F97BC00DAC77 /* Views */,
+				E9C2B90A5DCA5D29F2BEC039 /* Assets.xcassets */,
+				3FE63B240598CB3AEBB003C8 /* cinematicboom.caf */,
+				9F9BD09D2B47C84DC77A984F /* AppIcons */,
+				245B98C597284AC824FB11F9 /* Resources */,
+			);
+			path = Argus;
+			sourceTree = "<group>";
+		};
+		63A9F0EA7BB98050796B649E = {
+			isa = PBXGroup;
+			children = (
+				56A1B566039BA486F2D6DC66 /* Argus */,
+				CC0F68FE2D81F9614883F277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EDE00FA7A261151470098F6 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0ADE3765FB0F9A8485D5FE04 /* Config.swift */,
+				B2C3D4E5F60718293A4B5C6D /* SettingsStore.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		71A6F5C4884DAA03A21911C3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				77120F2BDB9D3D307C80D6B7 /* Models */,
+				2028BB2751861C5D071D3072 /* AppState.swift */,
+				01738DBB3118115669794A64 /* DiscoverViewModel.swift */,
+				DA3FA2158D8A29FFDD0D261C /* HomeViewModel.swift */,
+				751CA4F01DB3307308876EC4 /* ListsViewModel.swift */,
+				9DF36DD1E7165A114608D0D2 /* ProfileViewModel.swift */,
+				6F708192A3B4C5D6E7F8091A /* MediaDetailViewModel.swift */,
+				A107EE48F2E07A6726646726 /* PicksViewModel.swift */,
+				5CBF3333580097218E9417DA /* CalendarViewModel.swift */,
+				557A12243759298D125780FC /* MyProgressViewModel.swift */,
+				7319356F7A20B7D89B16789B /* MyStatsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		77120F2BDB9D3D307C80D6B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE238FB88260AB89D427BA26 /* AnimeSeasonModels.swift */,
+				44A037D73A48414773960126 /* CatalogModels.swift */,
+				20182D7557F3DD581BC6FF9A /* CommonTypes.swift */,
+				HHHHHHHH0000000000000002 /* APIResponses.swift */,
+				FFFFFFFF0000000000000002 /* Date+Extensions.swift */,
+				4C7209EB40BDDB6C4C335A30 /* HighlightModels.swift */,
+				4CBD366C446811FFD949569F /* ListModels.swift */,
+				0C74224283BB6301E26B3AAD /* MappingModels.swift */,
+				2866DA441EF161CDD1A82835 /* Persistence */,
+				6A874D8C7F26BD8511C6E81E /* RatingModels.swift */,
+				C3D569D6396121453452E616 /* ResumeModels.swift */,
+				78ED51F30EED500C314B8C1D /* SkipModels.swift */,
+				FE6874D136161E655F840F07 /* TMDBModels.swift */,
+				2B3C4D5E6F708192A3B4C5D6 /* MediaDetailRoute.swift */,
+				C5D6E7F8091A2B3C4D5E6F7 /* ContinueWatchingItem.swift */,
+				4D5E6F708192A3B4C5D6E7F8 /* TMDBSeasonModels.swift */,
+				4BFC2D12CBA865B510E41758 /* VoteModels.swift */,
+				8A2FE84FFF4107208F0A9DF2 /* WatchedModels.swift */,
+				96CD9B53F74D4D97CFA31F9C /* AuthModels.swift */,
+				5CF173FE9E222CD544C07192 /* HeroCarouselModels.swift */,
+				4A4BA6104ABC67CB8CA905CC /* FavoriteItem.swift */,
+				31007D7E810705931A1FCCCF /* CalendarModels.swift */,
+				3324F5DB1C0621082CB07CB7 /* MyProgressData.swift */,
+				4B55C40378AF85F6B3FC4A59 /* MyStatsModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77490BBACA9BCE2E0D0EECB2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D7B8A1839135FC1CA45B0853 /* ProgressStatCards.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		77AB1F771F1D10EAC3E2E22F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				CCA18D71CED58FB9A1C03F6D /* LoginView.swift */,
+				3253C94E24EE336D68DABBC2 /* RootView.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		7CBFF3E6D5C1F97BC00DAC77 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A06580AC846C7B4C9E786A5F /* ContentView.swift */,
+				93D29536FB73F2283CF45756 /* Design */,
+				1405F8BBB4B5D6193DFB93C7 /* Discover */,
+				F0F2100727B586E8F7F4B859 /* Home */,
+				E8F6430914C93690D6D82259 /* Lists */,
+				9CCC7AB36A3F1F85E043125D /* Profile */,
+				A8293A4B5C6D7E8F901A2B3C4D /* Settings */,
+				B4C5D6E7F8091A2B3C4D5E6F /* Detail */,
+				C979B2B356BBFA7856FFDFB7 /* Picks */,
+				77AB1F771F1D10EAC3E2E22F /* Auth */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93D29536FB73F2283CF45756 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				0148F588B56674F762EB0B9E /* AppIconView.swift */,
+				02854E6AA6F7FA9F4E5512F3 /* GlassComponents.swift */,
+				F3132523FA15E42D7D4CB716 /* GlassTheme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		9CCC7AB36A3F1F85E043125D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5E874C69B028F6EA29F8DC15 /* ProfileView.swift */,
+				F9A0B1C2D3E4F5061728394A5 /* ProfileStatDestinations.swift */,
+				F5C98BBA3E1CC22EB71B2F18 /* Favorites */,
+				F9B9590AAA411BF7D5F4ED0B /* CalendarView.swift */,
+				1EB423728CD3C4D3B087C5C9 /* MyProgressView.swift */,
+				77490BBACA9BCE2E0D0EECB2 /* Components */,
+				65097AC42F96CF36E435FB5A /* ActivityDetailView.swift */,
+				CCFBA6CA0862BC385B117CEC /* MyStatsView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		9F9BD09D2B47C84DC77A984F /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				44CB4B4FA58BB71C6BB8AA39 /* Argus-flat.png */,
+				C3E09B9FD9A6CDB22D9C071E /* Argus-100-eyes.png */,
+				17F37B832272BF24D1210A7E /* pmdb-flat.png */,
+				1FB352DCE8C4137F3102D565 /* pmdb-3D.png */,
+				29EB47441A5C8E3D0E33ABAE /* Argus-3D-Black.png */,
+			);
+			name = AppIcons;
+			sourceTree = "<group>";
+		};
+		A8293A4B5C6D7E8F901A2B3C4D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				18293A4B5C6D7E8F901A2B3C4 /* SettingsView.swift */,
+				C6C139E6DDADFCCECC61F58E /* AppIconPickerView.swift */,
+				F5E675CBE84AE96CFEA8583B /* PreviewPosterCard.swift */,
+				CD1C661DE5FF1A30070E0530 /* PosterCustomizationView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B4C5D6E7F8091A2B3C4D5E6F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A3B4C5D6E7F8091A2B3C4D5E /* MediaDetailNavigation.swift */,
+				8192A3B4C5D6E7F8091A2B3C /* MediaDetailView.swift */,
+				EB01D8DD7CE18B54BAE1E03B /* PersonDetailView.swift */,
+				1FEDF2079BFF989EF81C925D /* ManagePlaysView.swift */,
+				BE538296C3E88F8D363A0AAF /* SeasonMappingSheet.swift */,
+				AD7825B7F5F6C5E84B9FEA44 /* SeasonMappingCard.swift */,
+				0A7A2B270ED24907AF82DD53 /* MediaDetailSections.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		C979B2B356BBFA7856FFDFB7 /* Picks */ = {
+			isa = PBXGroup;
+			children = (
+				40B8B027EF389D59A8E0B83A /* PicksView.swift */,
+				956E0A3841AC1B73C51358C1 /* LiquidGlassPickCard.swift */,
+				AB385CF68A8771AA026A1299 /* NewPickSheetView.swift */,
+			);
+			name = Picks;
+			sourceTree = "<group>";
+		};
+		CC0F68FE2D81F9614883F277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81E2A5C3B4BDA27200337869 /* Argus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8F6430914C93690D6D82259 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				80D6AFE2934FF804F2D4D601 /* ListsView.swift */,
+				F27A5A8F9D2EB145E43F3F8D /* CreateListSheet.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		F0F2100727B586E8F7F4B859 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				74CD1CBEDBA57376A1F08EC0 /* HomeView.swift */,
+				DDDDDDDD0000000000000004 /* SkeletonCardView.swift */,
+				AAAAAAAA0000000000000001 /* WatchHistoryListView.swift */,
+				45D1C953AA0A714B4A2F7BF5 /* HomeHeroCarouselView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F3A204C879C4E1558FCB2C4D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F6C7DFEBBAF0CFE0BC70A7D8 /* APIError.swift */,
+				857CFB482F476BA04D63D978 /* APIService.swift */,
+				3A861D35EA49B526C81A5736 /* CacheRepository.swift */,
+				F60718293A4B5C6D7E8F901A /* MetadataEnrichmentService.swift */,
+				D4E5F60718293A4B5C6D7E8F /* TMDBIDResolver.swift */,
+				4B28DFD8F7A2F939B30281F6 /* TMDBService.swift */,
+				7C8B017F10ADD65E3852181E /* UserService.swift */,
+				B4CA3E371A9BFBDE9E5CC59C /* AuthService.swift */,
+				FA2B3C4D5E6F708192B3C4D5 /* FavoritesService.swift */,
+				E8165BB07858337E47EAD1B6 /* MyStatsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F5C98BBA3E1CC22EB71B2F18 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				401B859D2160948AC470590C /* FavoritesView.swift */,
+				022C18C0F20BC58738656373 /* FavoriteGridSection.swift */,
+				C88FE19F4B9A7C21785B1B31 /* FavoriteSearchModal.swift */,
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* Argus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C875FD1C5C02E06FAC0545 /* Build configuration list for PBXNativeTarget "Argus" */;
+			buildPhases = (
+				3B7DFB0747829707F437ED7F /* Sources */,
+				4F6F5CC3FCCF73F75AE9CCF4 /* Frameworks */,
+				3519654520012F56AC9A0E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Argus;
+			productName = PublicMetaDBApp;
+			productReference = 81E2A5C3B4BDA27200337869 /* Argus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = DD445E777372328CDC08F332 /* Build configuration list for PBXProject "Argus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A9F0EA7BB98050796B649E;
+			productRefGroup = CC0F68FE2D81F9614883F277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* Argus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3519654520012F56AC9A0E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20DDA1EF970C365A16F71374 /* Assets.xcassets in Resources */,
+				A4056E51E7BB0766A22E6599 /* cinematicboom.caf in Resources */,
+				35E73CE6F77F2FD8A30CEA26 /* Argus-flat.png in Resources */,
+				68D6B913F20F747D62FFB21A /* Argus-100-eyes.png in Resources */,
+				9B202A0BDCFA3D42129C71C0 /* pmdb-flat.png in Resources */,
+				8CADFEF5B6D8BFAFD6D050BE /* pmdb-3D.png in Resources */,
+				261EB20B70F4F08BB45F6D98 /* Argus-3D-Black.png in Resources */,
+				D829C153E34B8D23679E1C5C /* splashscreeneye.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7DFB0747829707F437ED7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D4E7AE74D4461ED4F10F07 /* ArgusApp.swift in Sources */,
+				03A3BE46C65970172C144A79 /* AppState.swift in Sources */,
+				5BFA13D74C5DFD1B64B2994A /* DiscoverViewModel.swift in Sources */,
+				13C3B77B8B3ECF68D22AD857 /* HomeViewModel.swift in Sources */,
+				79ACB0D8D8A34156515C2CF0 /* ListsViewModel.swift in Sources */,
+				5E15CCE814C690732D8B0D44 /* ProfileViewModel.swift in Sources */,
+				EBF1DC9F8D22E548715E91E5 /* Config.swift in Sources */,
+				6F3D501C3F9EF9524095B312 /* AnimeSeasonModels.swift in Sources */,
+				96234D7183317BBD9AA716A9 /* CatalogModels.swift in Sources */,
+				54457D8B790564B908FAC57B /* CommonTypes.swift in Sources */,
+				GGGGGGGG0000000000000001 /* APIResponses.swift in Sources */,
+				EEEEEEEE0000000000000001 /* Date+Extensions.swift in Sources */,
+				53F98F6A2FA4D1026CAE85A1 /* HighlightModels.swift in Sources */,
+				49F30481852BF7907562AAE1 /* ListModels.swift in Sources */,
+				8041004B9B7EE597DB46CC2C /* MappingModels.swift in Sources */,
+				1E46FE07CDE39965587972E3 /* RatingModels.swift in Sources */,
+				26275466A20F22CA58D20239 /* ResumeModels.swift in Sources */,
+				80A69B0002DBD78F911B0F82 /* SkipModels.swift in Sources */,
+				89F15E3952E93CA761D51E44 /* TMDBModels.swift in Sources */,
+				A4C793421F5B9D242A2B0D89 /* VoteModels.swift in Sources */,
+				7C74376ADCC2B20BE494E8A5 /* WatchedModels.swift in Sources */,
+				F2D0A4FA9C5176152AD6B070 /* SwiftDataModels.swift in Sources */,
+				13FBFA1C1E240E64C4D98230 /* ContentView.swift in Sources */,
+				9497B62AFBF7BDDAF18A1845 /* HomeView.swift in Sources */,
+				CCCCCCCC0000000000000003 /* SkeletonCardView.swift in Sources */,
+				BBBBBBBB0000000000000002 /* WatchHistoryListView.swift in Sources */,
+				4EFF7CFDAB50C51B9E8D75A3 /* AppIconView.swift in Sources */,
+				3B89F0D3047C3D136F0815F5 /* GlassComponents.swift in Sources */,
+				72AA5672080F72BFDCF01282 /* GlassTheme.swift in Sources */,
+				CE422D67DDDB407B81282810 /* DiscoverView.swift in Sources */,
+				42D2542A157ADFCEB3660B6D /* ListsView.swift in Sources */,
+				FD7D382FCEC7AAB0C69FBC35 /* ProfileView.swift in Sources */,
+				E8F9A0B1C2D3E4F5061728394 /* ProfileStatDestinations.swift in Sources */,
+				23521B3F4B185D3533883106 /* APIError.swift in Sources */,
+				3A2FDA30544A4FF1FC1AC3B1 /* APIService.swift in Sources */,
+				8183548ACD36903CE1163AD3 /* CacheRepository.swift in Sources */,
+				897FD8F99874D3C791BC0E74 /* TMDBService.swift in Sources */,
+				A1B2C3D4E5F60718293A4B5C /* SettingsStore.swift in Sources */,
+				C3D4E5F60718293A4B5C6D7E /* TMDBIDResolver.swift in Sources */,
+				E5F60718293A4B5C6D7E8F90 /* MetadataEnrichmentService.swift in Sources */,
+				0718293A4B5C6D7E8F901A2B3 /* SettingsView.swift in Sources */,
+				1A2B3C4D5E6F708192A3B4C5 /* MediaDetailRoute.swift in Sources */,
+				D6E7F8091A2B3C4D5E6F708 /* ContinueWatchingItem.swift in Sources */,
+				3C4D5E6F708192A3B4C5D6E7 /* TMDBSeasonModels.swift in Sources */,
+				5E6F708192A3B4C5D6E7F809 /* MediaDetailViewModel.swift in Sources */,
+				708192A3B4C5D6E7F8091A2B /* MediaDetailView.swift in Sources */,
+				92A3B4C5D6E7F8091A2B3C4D /* MediaDetailNavigation.swift in Sources */,
+				8DE9B0C09D529730F3F637BC /* PicksView.swift in Sources */,
+				A91E927F3CAA183C200263B3 /* PicksViewModel.swift in Sources */,
+				2765EDF7DA725C9CF68AB612 /* LiquidGlassPickCard.swift in Sources */,
+				DDC1B7C4E2A3A0695EB98F8B /* NewPickSheetView.swift in Sources */,
+				FFEC9BE059A7BC9C538E06EA /* UserService.swift in Sources */,
+				FA1B2C3D4E5F6071829FA1B2 /* FavoritesService.swift in Sources */,
+				CC1EC48DA13F06E27D0895CF /* CreateListSheet.swift in Sources */,
+				B3152437922A8038C5B214C8 /* LoginView.swift in Sources */,
+				4A0970D8B913985EE7E1AE40 /* RootView.swift in Sources */,
+				DCF49E39BB8D78658507E0BD /* AuthService.swift in Sources */,
+				5230EECD5B9FAC0E242C953C /* AuthModels.swift in Sources */,
+				E3CDE02272DE1D985F14A12B /* HeroCarouselModels.swift in Sources */,
+				F5BAFA474B243924871A573C /* HomeHeroCarouselView.swift in Sources */,
+				D0183A8CB4279CAEF7A60286 /* PersonDetailView.swift in Sources */,
+				24A1820CD66BBB8E4566B781 /* FavoriteItem.swift in Sources */,
+				86DD979E235498FBF06E77A8 /* FavoritesView.swift in Sources */,
+				6917AC1F0D9637D75FC428CE /* FavoriteGridSection.swift in Sources */,
+				3D09C85AB1489BF1010E0DA7 /* FavoriteSearchModal.swift in Sources */,
+				D92BAD48CD06E9920BD9606A /* CalendarModels.swift in Sources */,
+				C5E87157DEB092E81B059DCA /* CalendarViewModel.swift in Sources */,
+				C7EAE616DB25CED1706CA142 /* CalendarView.swift in Sources */,
+				D12CDC74FA61A563D1A43A43 /* MyProgressData.swift in Sources */,
+				F519AC4AD2FA2A7120ECF086 /* MyProgressViewModel.swift in Sources */,
+				8B8139EE9CD162BF61C019EF /* MyProgressView.swift in Sources */,
+				C24A946DDD0319C0E5A3E6BF /* ProgressStatCards.swift in Sources */,
+				FA9ECA0F14F3137C344E5E2A /* ActivityDetailView.swift in Sources */,
+				2C5881633CC8A59F55C89821 /* MyStatsModels.swift in Sources */,
+				4417EAB8E75029F06C31844B /* MyStatsViewModel.swift in Sources */,
+				C4A40415D4CC981FC5177F34 /* MyStatsView.swift in Sources */,
+				C908BB1D3AD029A2E73EB7E1 /* MyStatsService.swift in Sources */,
+				627218D7B3E8430AF7709152 /* ManagePlaysView.swift in Sources */,
+				18F48BD0AF4303ABB4735C7A /* SeasonMappingSheet.swift in Sources */,
+				DF0C78B20801605A8F26DB08 /* SeasonMappingCard.swift in Sources */,
+				36A97BD434FB12A67EFC1AB4 /* AppIconPickerView.swift in Sources */,
+				91F9AD9859B4A983629066E6 /* MediaDetailSections.swift in Sources */,
+				19ED1FB167E0B4D3C6F5FDAE /* PreviewPosterCard.swift in Sources */,
+				6D6F4A90FAAFF7D443456D31 /* PosterCustomizationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AE38601C6A0C412C0BF21D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TX4V2373;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Argus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Argus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.argus.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3362C1320C74E322A913FD7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DD3D678E6D5237127FC80FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99TX4V2373;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Argus/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Argus;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.argus.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D13DB117F0B8E9E35DDFDBE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74C875FD1C5C02E06FAC0545 /* Build configuration list for PBXNativeTarget "Argus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD3D678E6D5237127FC80FA /* Debug */,
+				2AE38601C6A0C412C0BF21D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD445E777372328CDC08F332 /* Build configuration list for PBXProject "Argus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3362C1320C74E322A913FD7D /* Debug */,
+				D13DB117F0B8E9E35DDFDBE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
