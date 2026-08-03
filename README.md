@@ -54,7 +54,7 @@ Argus is a fully native iOS experience with a lot of new features:
 | All PublicMetaDB features | ✅ | ✅ |
 | Liquid Glass design | ❌ | ✅ |
 | Hero section trailer auto-play | ❌ | ✅ |
-| Episode drops push notifications | ❌ | ✅ |
+| Episode drops notifications | ❌ | ✅ |
 | Exact episode air times (via built-in TVmaze API) | ❌ | ✅ |
 | Convert scales | ❌ | ✅ |
 | Custom posters | ❌ | ✅ |
